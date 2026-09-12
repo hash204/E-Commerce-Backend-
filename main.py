@@ -81,7 +81,7 @@ class OrderCreate(BaseModel):
 
 
 # 4. FASTAPI CONFIGURATION
-app = FastAPI(title="Relational E-Commerce Backend")
+app = FastAPI(title="Hash E-Commerce")
 
 def get_db():
     db = SessionLocal()
